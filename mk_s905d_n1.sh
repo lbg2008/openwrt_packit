@@ -174,19 +174,10 @@ cd $TGT_ROOT
 copy_supplement_files
 extract_glibc_programs
 adjust_docker_config
-adjust_openssl_config
-adjust_qbittorrent_config
 adjust_getty_config
-adjust_samba_config
-adjust_nfs_config "mmcblk2p4"
-adjust_openssh_config
-adjust_openclash_config
-use_xrayplug_replace_v2rayplug
 create_fstab_config
 adjust_turboacc_config
 adjust_ntfs_config
-adjust_mosdns_config
-patch_admin_status_index_html
 adjust_kernel_env
 copy_uboot_to_fs
 write_release_info
