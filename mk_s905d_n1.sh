@@ -172,12 +172,8 @@ echo
 echo "修改根文件系统相关配置 ... "
 cd $TGT_ROOT
 copy_supplement_files
-extract_glibc_programs
-adjust_docker_config
 adjust_getty_config
 create_fstab_config
-adjust_turboacc_config
-adjust_ntfs_config
 adjust_kernel_env
 copy_uboot_to_fs
 write_release_info
